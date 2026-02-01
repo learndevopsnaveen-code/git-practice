@@ -5,4 +5,6 @@ echo "no od variables passed to the script = $#"
 echo "to know the name of the script = $0"
 echo "current directory = $PWD"
 echo "home directory of current user $HOME"
-echo "IID of the script executing now = $$"
+echo "PID of the script executing now = $$"
+sleep 100 and
+echo "PID of last background command = $!"
